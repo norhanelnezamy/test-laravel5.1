@@ -24,4 +24,7 @@ Route::group(['middleware' => 'admin'], function () {
     Route::controller('users', 'UsersController');
 
 });
-
+Router::get('test', function()
+{
+  return 'hello iam here';
+});
