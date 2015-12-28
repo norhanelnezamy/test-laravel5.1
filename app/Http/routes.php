@@ -28,3 +28,7 @@ Router::get('test', function()
 {
   return 'hello iam here';
 });
+Router::get('test2', function()
+{
+  return 'hello iam here';
+});
