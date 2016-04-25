@@ -33,7 +33,7 @@ class UsersController extends Controller
             $user->telephone = Input::get('telephone');
             $user->admin = Input::get('role');
             $user->save();
-            return redirect('users/index/1');
+            return redirect('/users/index/1');
         }
         return view('admin/users/create')
             ->with('errors', $validate->errors());
@@ -59,7 +59,7 @@ class UsersController extends Controller
             $user->telephone = Input::get('telephone');
             $user->admin = Input::get('role');
             $user->update();
-            return redirect('users');
+            return redirect('/users/index/1');
         }
         return redirect('users/update/' . $id)
             ->with('errors', $validate->errors());

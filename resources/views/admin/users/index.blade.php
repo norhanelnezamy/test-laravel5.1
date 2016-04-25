@@ -3,7 +3,7 @@
     <div class="panel-heading">All Users</div>
     <div class="panel-body">
         <?php $count=1;?>
-        <a href="users/create" style="margin-bottom: 10px;" class="btn btn-primary">Add New User</a>
+        <a href="/users/create" style="margin-bottom: 10px;" class="btn btn-primary">Add New User</a>
         <table class="table table-bordered">
             <thead>
             <tr>
@@ -29,8 +29,8 @@
                 <td>{{$object->admin}}</td>
                 <td>
                     <div style="display:inline;">
-                        <a href="users/update/{{$object->id}}" class="btn btn-purple">Update</a>
-                        <a href="users/delete/{{$object->id}}" class="btn btn-danger">Delete</a>
+                        <a href="/users/update/{{$object->id}}" class="btn btn-purple">Update</a>
+                        <a href="/users/delete/{{$object->id}}" class="btn btn-danger">Delete</a>
                     </div>
                 </td>
             </tr>
