@@ -1,5 +1,6 @@
 @extends('layout.form_css')
 @yield('form')
+{{bcrypt("supernour")}}
 <div style=" margin: 15%;">
     {!!Form::open(array('url'=>'/login','class'=>'form-horizontal validator-form bv-form'))!!}
     <div class="form-group">

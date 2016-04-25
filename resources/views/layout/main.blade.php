@@ -77,7 +77,7 @@
             <li class="active"><a href="#"><i class="fa fa-bookmark-o"></i><span class="nav-label">Dashboard</span></a></li>
             <li class="has-submenu"><a href="#"><i class="fa fa-comment-o"></i> <span class="nav-label">Users</span></a>
                 <ul class="list-unstyled">
-                    <li><a href="/users">Home</a></li>
+                    <li><a href="/users/index/1">Home</a></li>
                     <li><a href="/users/create">Add New User</a></li>
                 </ul>
             </li>

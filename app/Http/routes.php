@@ -24,11 +24,11 @@ Route::group(['middleware' => 'admin'], function () {
     Route::controller('users', 'UsersController');
 
 });
-Router::get('test', function()
+Route::get('test', function()
 {
   return 'hello iam here';
 });
-Router::get('test2', function()
+Route::get('test2', function()
 {
   return 'hello iam here';
 });

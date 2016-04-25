@@ -11,7 +11,7 @@ class UsersController extends Controller
 {
     public function getIndex($page)
     {
-        $objects = User::get()->limit(2)->paginate(4);
+        $objects = User::paginate(4);
         return view('admin/users/index')
             ->with('objects', $objects);
     }

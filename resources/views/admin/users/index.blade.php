@@ -38,7 +38,7 @@
             @endforeach
             </tbody>
         </table>
-        {!! $object->render() !!}
+        {!! $objects->render() !!}
     </div>
     </div>
 @stop
